@@ -1,0 +1,31 @@
+nav{
+    font-family: 'Merriweather', serif;
+
+}
+
+body {
+    background-image:url("weather-pic.jpg");
+}
+
+.card{
+    font-family: 'Merriweather', sans-serif;
+    margin: 0 auto;
+    float: snap;
+    margin-bottom: 10px
+}
+.col {
+  float: left;
+  width: 25%;
+    padding-top: 100px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.card-title{
+    font-weight: bold;
+    font-size: larger;
+}
